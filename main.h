@@ -6,14 +6,14 @@
 /*   By: yabarhda <yabarhda@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/20 10:18:42 by yabarhda          #+#    #+#             */
-/*   Updated: 2024/12/27 11:01:02 by yabarhda         ###   ########.fr       */
+/*   Updated: 2025/01/01 10:17:36 by yabarhda         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef MAIN_H
 # define MAIN_H
 
-# include "/usr/include/minilibx-linux/mlx.h"
+# include <mlx.h>
 # include <stdlib.h>
 # include <unistd.h>
 # include <fcntl.h>

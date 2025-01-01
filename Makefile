@@ -12,7 +12,7 @@ all: $(NAME)
 	$(CC) $(CFLAGS) -c $< -o $@
 
 $(NAME): $(OBJ)
-	$(CC) $(OBJ) -L/usr/include/minilibx-linux/ -lmlx -lXext -lX11 -o $(NAME)
+	$(CC) $(OBJ) -lmlx -lXext -lX11 -o $(NAME)
 
 clean:
 	rm -f $(OBJ)
